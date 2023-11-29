@@ -45,7 +45,6 @@ function populateUI(profile: UserProfile){
     document.getElementById("imgUrl")!.innerText = profile.images[0].url;
 
 }
-//for (let i = 0; i < cars.length; i++) {
 
 function populateU(profile: UserProfile){
     for(let i =0;i<10;i++){
