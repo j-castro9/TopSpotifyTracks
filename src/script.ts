@@ -1,6 +1,3 @@
-export default {
-  base: '/',
-};
 import { redirectToAuthCodeFlow, getAccessToken } from "/authCode";
 
 const clientId = "5f56bd6a2551494ca8579167c145bedf";
