@@ -1,4 +1,4 @@
-import { redirectToAuthCodeFlow, getAccessToken } from "/authCode";
+import { redirectToAuthCodeFlow, getAccessToken } from "./authCode";
 
 const clientId = "5f56bd6a2551494ca8579167c145bedf";
 const params = new URLSearchParams(window.location.search);
